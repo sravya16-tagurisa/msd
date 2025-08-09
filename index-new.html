@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost & Found Pro - Home</title>
+  <link rel="stylesheet" href="css/professional.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index-new.html" class="nav-brand">
+        <i class="fas fa-search-location"></i>
+        Lost & Found Pro
+      </a>
+      <ul class="nav-links">
+        <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+        <li><a href="report-lost.html" class="nav-link">Report Lost</a></li>
+        <li><a href="report-found.html" class="nav-link">Report Found</a></li>
+        <li><a href="index-new.html" class="nav-link active">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Welcome to Lost & Found Pro</h1>
+      <p class="hero-subtitle">The most comprehensive platform for reporting and finding lost items</p>
+      <div style="margin-top: 2rem;">
+        <a href="login-register.html" class="btn btn-primary" style="margin-right: 1rem;">
+          <i class="fas fa-tachometer-alt"></i>
+          Go to Dashboard
+        </a>
+        <a href="report-lost.html" class="btn btn-outline">
+          <i class="fas fa-search"></i>
+          Report Lost Item
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section style="padding: 4rem 2rem; max-width: 1200px; margin: 0 auto;">
+    <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem; color: var(--gray-800);">Key Features</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-search" style="font-size: 2rem; color: var(--primary-500); margin-bottom: 1rem;"></i>
+          <h3>Report Lost Items</h3>
+        </div>
+        <p>Easily report lost items with detailed descriptions and photos to maximize recovery chances.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-box" style="font-size: 2rem; color: var(--success); margin-bottom: 1rem;"></i>
+          <h3>Report Found Items</h3>
+        </div>
+        <p>Help others by reporting found items and reunite them with their rightful owners.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-exchange-alt" style="font-size: 2rem; color: var(--warning); margin-bottom: 1rem;"></i>
+          <h3>Smart Matching</h3>
+        </div>
+        <p>Our intelligent system matches lost and found items based on descriptions and locations.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

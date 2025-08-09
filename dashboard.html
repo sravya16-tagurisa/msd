@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Lost & Found Pro</title>
+  <link rel="stylesheet" href="css/professional.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index-new.html" class="nav-brand">
+        <i class="fas fa-search-location"></i>
+        Lost & Found Pro
+      </a>
+      <ul class="nav-links">
+        <li><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+        <li><a href="report-lost.html" class="nav-link">Report Lost</a></li>
+        <li><a href="report-found.html" class="nav-link">Report Found</a></li>
+        <li><a href="index-new.html" class="nav-link">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="dashboard-container">
+    <div class="page-header">
+      <h1 class="page-title">Dashboard</h1>
+      <p class="page-subtitle">Manage your lost and found items efficiently</p>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-info">
+          <h3>Lost Items</h3>
+          <p>12</p>
+        </div>
+        <i class="fas fa-search stat-icon lost"></i>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-info">
+          <h3>Found Items</h3>
+          <p>8</p>
+        </div>
+        <i class="fas fa-box stat-icon found"></i>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-info">
+          <h3>Resolved</h3>
+          <p>5</p>
+        </div>
+        <i class="fas fa-check-circle stat-icon resolved"></i>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="actions-grid">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">
+            <i class="fas fa-plus-circle"></i>
+            Report New Item
+          </h3>
+        </div>
+        <div class="action-buttons">
+          <a href="report-lost.html" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+            Report Lost Item
+          </a>
+          <a href="report-found.html" class="btn btn-outline">
+            <i class="fas fa-box"></i>
+            Report Found Item
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">
+            <i class="fas fa-list"></i>
+            Recent Activity
+          </h3>
+        </div>
+        <div class="activity-list">
+          <div class="activity-item">
+            <span>iPhone 13 - Lost</span>
+            <span class="badge badge-warning">Pending</span>
+          </div>
+          <div class="activity-item">
+            <span>Wallet - Found</span>
+            <span class="badge badge-success">Returned</span>
+          </div>
+          <div class="activity-item">
+            <span>Keys - Lost</span>
+            <span class="badge badge-error">Active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
